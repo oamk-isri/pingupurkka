@@ -1,0 +1,8 @@
+services:
+  xampp:
+    image: tomsik68/xampp:8
+    volumes:
+      - ~/Documents/amk/relational-databases/php:/www
+    ports:
+      - "2222:22"
+      - "8080:80"
